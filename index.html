@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Léa Crusel's profile</title>
+    <meta name="Léa's profile" content="Welcome ot Léa's profile">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7c99eeef3e.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
+
+  <body>
+	<div class="topnav">
+		<a href="#bio">BIO</a>
+		<a href="#dreams">DREAMS</a>
+		<a href="#passions">PASSIONS</a>
+		<a href="#follow">FOLLOW</a>
+		<a href="#contact">CONTACT</a>
+	</div>
+
+    <div class="container">
+
+	      <div class="card-white" id="Bio">
+	        <h1>Hello, I'm Léa !</h1>
+	        <img src="images/profile.png" class="img-circle" width="100px" alt="Léa Crusel">
+	        <p>"Never let anyone tell you that it's impossible"</p>
+	        <p>22 years old<br>
+	        From Albi (810000)<br>
+	    	Living in Marseille</p>
+	    	<br>
+	        <a href="resources/CV.pdf" target="_blank" class="btn-blue">Download my CV</a>
+	      </div>
+
+	      <div class="card-white" id="dreams">
+	      	<div class="card-body">
+				<h2>My Dreams</h2>
+				<img src="images/foot.jpg" class="card-img-top" alt="Professionnal Football Player">
+				<p><strong>Professionnal Football Player</strong></p>
+				<img src="images/pilot.jpg" class="card-img-top" alt="pilot">
+				<p><strong>Auto / Moto Pilot</strong></p>
+	      	</div>
+		  </div>
+
+		  <div class="card-white" id="passions">
+		  	<div class="card-body">
+				<h2>My Passions</h2>
+					<section class="carousel">
+					    <ul class="carousel-items">
+					        <li class="carousel-item">
+					            <div class="card">
+					                <h3 class="card-title">Motorsport</h3>
+					                        <img src="images/4L.jpg" />
+					                        <div class="card-content">
+					                            <p>Since I was a child, I have spent my life on the edge of the racetracks, wanting to drive sports cars or collector's cars.</p>
+					                            <a href="#" class=".btn-blue">Read more</a>
+					                        </div>
+					                    </div>
+					                </li>
+					                <li class="carousel-item">
+					                    <div class="card">
+					                        <h3 class="card-title">Surf</h3>
+					                        <img src="images/surf.jpg" />
+					                        <div class="card-content">
+					                            <p>I am a "water girl". The beauty and power of the ocean has always fascinated me and I don't miss an opportunity to go surfing when I'm nearby.</p>
+					                            <a href="#" class=".btn-blue">Read more</a>
+					                        </div>
+					                    </div>
+					                </li>
+					                <li class="carousel-item">
+					                    <div class="card">
+					                        <h3 class="card-title">Motorbike</h3>
+					                        <img src="images/motorbike.jpg" />
+					                        <div class="card-content">
+					                            <p>I am a "water girl". The beauty and power of the ocean has always fascinated me and I don't miss an opportunity to go surfing when I'm nearby.</p>
+					                            <a href="#" class=".btn-blue">Read more</a>
+					                        </div>
+					                    </div>
+					                </li>
+					            </ul>
+					        </section>			
+			</div>
+		  </div>
+
+      <div class="card-white" id="follow">
+        <h2>Follow me !</h2>
+        <ul class="list-inline">
+          <li>
+            <a href="https://www.facebook.com/lea.crusel/" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/lea-crusel/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/lea_fashiion/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+		<div class="card-white" id="contact">
+		    <h2>Contact</h2>
+		    <br>
+				<form action="action_page.php">
+
+					    <h3 label for="fname">First Name</label>
+					    <input type="text" id="fname" name="firstname" placeholder="Your name.."></h3>
+
+					    <h3 label for="lname">Last Name</label>
+					    <input type="text" id="lname" name="lastname" placeholder="Your last name.."></h3>
+
+					    <h3 label for="country">Subject</label>
+					    <select id="country" name="country">
+					      <option value="australia">CV</option>
+					      <option value="canada">Dreams</option>
+					      <option value="usa">Passions</option>
+					      <option value="usa">Social</option>
+					    </select></h3>
+
+					    <h3 label for="subject">Message</label>
+					    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea></h3>
+
+					    <input type="submit" value="Submit">
+
+					  </form>	        
+		</div>
+    </div>
+  </body>
+</html>
